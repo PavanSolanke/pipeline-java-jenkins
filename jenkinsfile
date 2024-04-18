@@ -18,15 +18,15 @@ pipeline{
     post{
 
         always{
-            sh 'echo"always"'
+            sh 'echo "always"'
         }
 
         success{
-            sh 'echo"success"'
+            sh 'echo "success"'
         }
 
         failure{
-            sh'echo"failure"'
+            sh 'echo "failure"'
         }
     }
 }
